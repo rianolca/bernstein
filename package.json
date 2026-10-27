@@ -1,0 +1,10 @@
+{
+  "name": "bernstein-alarm",
+  "private": true,
+  "type": "module",
+  "description": "Meldet gute Zeitfenster für die Bernsteinsuche an der Nordseeküste",
+  "scripts": {
+    "update": "node scripts/update.mjs",
+    "test": "node tests/selbsttest.mjs"
+  }
+}

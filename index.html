@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bernstein-Alarm</title>
+  <meta name="description" content="Gute Zeitfenster für die Bernsteinsuche an Strand und Watt der Nordseeküste">
+  <meta name="theme-color" content="#16323a" media="(prefers-color-scheme: dark)">
+  <meta name="theme-color" content="#e7ece9" media="(prefers-color-scheme: light)">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3CradialGradient id='g' cx='.38' cy='.35'%3E%3Cstop offset='0' stop-color='%23ffe7a6'/%3E%3Cstop offset='.55' stop-color='%23e39b1b'/%3E%3Cstop offset='1' stop-color='%23a35a06'/%3E%3C/radialGradient%3E%3C/defs%3E%3Cpath d='M16 3c7 2 12 8 11 15-1 7-7 11-13 10S4 22 5 15 10 2 16 3z' fill='url(%23g)'/%3E%3C/svg%3E">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Public+Sans:ital,wght@0,400;0,500;0,650;1,400&family=Young+Serif&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="layout">
+    <section class="karte-bereich" aria-label="Karte der Pegel">
+      <div id="karte"></div>
+
+      <div class="suche">
+        <label for="suchfeld" class="visuell-versteckt">Pegel suchen</label>
+        <input id="suchfeld" type="search" placeholder="Pegel suchen, z. B. Cuxhaven" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="treffer">
+        <ul id="treffer" role="listbox" hidden></ul>
+      </div>
+
+      <div class="legende" aria-label="Legende">
+        <span><i class="perle" data-stufe="sehr-gut"></i>sehr gut</span>
+        <span><i class="perle" data-stufe="gut"></i>gut</span>
+        <span><i class="perle" data-stufe="mittel"></i>mittel</span>
+        <span><i class="perle" data-stufe="keine"></i>gering</span>
+      </div>
+    </section>
+
+    <main class="panel" id="panel">
+      <header class="kopf">
+        <h1>Bernstein-Alarm</h1>
+        <nav id="meine-orte" class="meine-orte" aria-label="Meine Orte"></nav>
+        <p id="datenstand" class="datenstand"></p>
+      </header>
+
+      <div id="inhalt" class="inhalt">
+        <p class="leer">Wähle einen Pegel auf der Karte oder über die Suche.</p>
+      </div>
+
+      <footer class="fuss">
+        <p>Keine Gewähr. Im Watt können Priele, auflaufendes Wasser und Nebel lebensgefährlich werden – Gezeiten vor Ort prüfen und nie allein bei schlechter Sicht hinausgehen.</p>
+        <p>Daten: Wasserstände und Gezeiten © <a href="https://www.bsh.de">BSH</a> (CC BY 4.0), Wetter und Wellen über <a href="https://open-meteo.com">Open-Meteo</a> mit Modellen des DWD (CC BY 4.0), Karte © <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>.</p>
+      </footer>
+    </main>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.min.js"></script>
+  <script type="module" src="app.js"></script>
+</body>
+</html>

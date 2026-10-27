@@ -1,0 +1,211 @@
+/* Bernstein-Alarm – Watt-Grau, Priel-Petrol und ein einziges Bernstein-Leuchten */
+
+:root {
+  --grund: #e7ece9;        /* Watt bei Tageslicht */
+  --flaeche: #f4f6f4;
+  --linie: #c3cdc9;
+  --text: #16323a;         /* Priel */
+  --text-leise: #4f6a70;
+  --bernstein: #e39b1b;
+  --bernstein-hell: #ffe2a0;
+  --bernstein-tief: #9c5506;
+  --warnung: #a8321f;
+  --mittel: #b98a3e;
+  --keine: #9fb0ad;
+  --fokus: #1f6f84;
+  --schrift: 'Public Sans', system-ui, sans-serif;
+  --titel: 'Young Serif', Georgia, serif;
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --grund: #0e1d22;      /* Nachtwatt */
+    --flaeche: #142a31;
+    --linie: #27444c;
+    --text: #dfe8e5;
+    --text-leise: #93aaa8;
+    --bernstein: #f2a92a;
+    --bernstein-hell: #ffe9b5;
+    --bernstein-tief: #a65c08;
+    --warnung: #ff8a73;
+    --mittel: #c79a52;
+    --keine: #4f6a70;
+    --fokus: #7cc6d8;
+    color-scheme: dark;
+  }
+  .leaflet-tile-pane { filter: invert(1) hue-rotate(180deg) brightness(0.8) contrast(0.9) saturate(0.6); }
+  .leaflet-control-attribution.leaflet-control { background: var(--flaeche); color: var(--text-leise); }
+  .leaflet-control-zoom a { background: var(--flaeche); color: var(--text); border-color: var(--linie); }
+}
+.station-kopf code { font-size: 0.85em; user-select: all; }
+
+* { box-sizing: border-box; }
+html, body { height: 100%; margin: 0; }
+body {
+  background: var(--grund);
+  color: var(--text);
+  font: 400 1rem/1.5 var(--schrift);
+  -webkit-font-smoothing: antialiased;
+}
+a { color: inherit; text-underline-offset: 2px; }
+:focus-visible { outline: 2px solid var(--fokus); outline-offset: 2px; }
+.visuell-versteckt { position: absolute; width: 1px; height: 1px; overflow: hidden; clip: rect(0 0 0 0); white-space: nowrap; }
+
+/* ---------- Aufteilung ---------- */
+.layout { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(360px, 1fr); height: 100vh; height: 100dvh; }
+.karte-bereich { position: relative; min-height: 0; }
+#karte { position: absolute; inset: 0; background: var(--grund); }
+.panel { overflow-y: auto; border-left: 1px solid var(--linie); background: var(--grund); }
+
+@media (max-width: 820px) {
+  .layout { display: block; height: auto; }
+  .karte-bereich { height: 42vh; height: 42dvh; }
+  .panel { border-left: 0; border-top: 1px solid var(--linie); overflow: visible; }
+}
+
+/* ---------- Suche ---------- */
+.suche { position: absolute; top: 12px; left: 56px; right: 12px; max-width: 360px; z-index: 500; }
+#suchfeld {
+  width: 100%;
+  padding: 10px 14px;
+  font: inherit;
+  color: var(--text);
+  background: var(--flaeche);
+  border: 1px solid var(--linie);
+  border-radius: 999px;
+}
+#treffer {
+  list-style: none;
+  margin: 6px 0 0;
+  padding: 4px;
+  background: var(--flaeche);
+  border: 1px solid var(--linie);
+  border-radius: 12px;
+  max-height: 50vh;
+  overflow-y: auto;
+}
+#treffer li { padding: 8px 10px; border-radius: 8px; cursor: pointer; display: flex; align-items: center; gap: 10px; }
+#treffer li small { color: var(--text-leise); margin-left: auto; text-align: right; }
+#treffer li[aria-selected='true'], #treffer li:hover { background: var(--grund); }
+
+.legende {
+  position: absolute; left: 12px; bottom: 22px; z-index: 500;
+  display: flex; flex-wrap: wrap; gap: 4px 12px;
+  padding: 6px 10px; font-size: 0.8rem;
+  background: var(--flaeche); border: 1px solid var(--linie); border-radius: 10px;
+}
+.legende span { display: inline-flex; align-items: center; gap: 6px; }
+
+/* ---------- Die Bernsteinperle ---------- */
+.perle {
+  --groesse: 14px;
+  display: inline-block;
+  flex: none;
+  width: var(--groesse);
+  height: var(--groesse);
+  border-radius: 46% 54% 52% 48% / 55% 48% 52% 45%;
+  background: var(--keine);
+  opacity: 0.6;
+}
+.perle[data-stufe='gering'] { background: var(--keine); opacity: 0.9; }
+.perle[data-stufe='mittel'] {
+  background: radial-gradient(circle at 35% 30%, var(--bernstein-hell), var(--mittel) 70%);
+  opacity: 1;
+}
+.perle[data-stufe='gut'],
+.perle[data-stufe='sehr-gut'] {
+  background: radial-gradient(circle at 35% 30%, var(--bernstein-hell), var(--bernstein) 55%, var(--bernstein-tief));
+  opacity: 1;
+  box-shadow: 0 0 6px 1px color-mix(in srgb, var(--bernstein) 55%, transparent);
+}
+.perle[data-stufe='sehr-gut'] {
+  box-shadow: 0 0 10px 3px color-mix(in srgb, var(--bernstein) 70%, transparent),
+              0 0 22px 6px color-mix(in srgb, var(--bernstein) 30%, transparent);
+}
+
+/* Pins auf der Karte (SVG-Kreise von Leaflet) */
+.pin { stroke: var(--grund); stroke-width: 2; fill: var(--keine); fill-opacity: 0.8; }
+.pin--gering { fill: var(--keine); }
+.pin--mittel { fill: var(--mittel); fill-opacity: 1; }
+.pin--gut { fill: var(--bernstein); fill-opacity: 1; }
+.pin--sehr-gut { fill: var(--bernstein); fill-opacity: 1; stroke: var(--bernstein-hell); stroke-width: 3; filter: drop-shadow(0 0 5px var(--bernstein)); }
+.pin--mein { stroke: var(--text); stroke-width: 2.5; }
+.pin--aktiv { stroke: var(--fokus); stroke-width: 4; }
+
+/* ---------- Panel ---------- */
+.kopf { padding: 20px 20px 8px; }
+.kopf h1 { font: 400 1rem/1.2 var(--titel); margin: 0 0 12px; color: var(--text-leise); }
+.meine-orte { display: flex; flex-wrap: wrap; gap: 8px; }
+.meine-orte button {
+  display: inline-flex; align-items: center; gap: 8px;
+  font: inherit; font-size: 0.9rem; color: var(--text);
+  padding: 6px 12px; cursor: pointer;
+  background: transparent; border: 1px solid var(--linie); border-radius: 999px;
+}
+.meine-orte button[aria-current='true'] { background: var(--flaeche); border-color: var(--text-leise); }
+.datenstand { margin: 10px 0 0; font-size: 0.8rem; color: var(--text-leise); }
+
+.inhalt { padding: 4px 20px 24px; max-width: 70ch; }
+.leer { color: var(--text-leise); }
+.fehler { color: var(--warnung); }
+
+.station-kopf h2 { font: 400 clamp(1.8rem, 1.2rem + 2vw, 2.4rem)/1.1 var(--titel); margin: 12px 0 4px; letter-spacing: -0.01em; }
+.station-kopf p { margin: 0; color: var(--text-leise); font-size: 0.9rem; }
+
+.fazit {
+  display: flex; gap: 14px; align-items: center;
+  margin: 18px 0 8px; padding: 14px 0;
+  border-top: 1px solid var(--linie); border-bottom: 1px solid var(--linie);
+}
+.fazit .perle { --groesse: 30px; }
+.fazit p { margin: 0; }
+.fazit strong { font-weight: 650; }
+
+.ereignisse { margin: 18px 0; }
+.ereignisse h3, .tag h3 { font: 400 1.15rem/1.3 var(--titel); margin: 0 0 8px; }
+.ereignisse ul { list-style: none; margin: 0; padding: 0; }
+.ereignisse li { padding: 4px 0 4px 14px; border-left: 3px solid var(--bernstein); margin-bottom: 6px; font-size: 0.95rem; }
+.ereignisse li.erwartet { border-left-style: dashed; }
+.ereignisse time { display: block; font-size: 0.8rem; color: var(--text-leise); }
+
+.filter { display: flex; align-items: center; gap: 8px; margin: 22px 0 6px; font-size: 0.9rem; color: var(--text-leise); }
+.filter input { accent-color: var(--bernstein); width: 18px; height: 18px; }
+
+/* Ein Tag = eine Leiste mit seinen Hochwassern */
+.tag { margin-top: 22px; }
+.tide { position: relative; padding: 2px 0 10px 18px; margin-bottom: 10px; }
+.tide::before { /* Wasserlinie */
+  content: ''; position: absolute; left: 4px; top: 6px; bottom: 6px; width: 2px;
+  background: linear-gradient(var(--text-leise), transparent);
+  border-radius: 2px;
+}
+.tide-zeile { font-size: 0.85rem; color: var(--text-leise); margin: 0 0 6px; }
+.tide-zeile b { color: var(--text); font-weight: 650; }
+.tide-zeile .erhoeht { color: var(--bernstein-tief); font-weight: 650; }
+@media (prefers-color-scheme: dark) { .tide-zeile .erhoeht { color: var(--bernstein); } }
+
+.fenster { display: grid; grid-template-columns: auto 1fr; column-gap: 12px; padding: 8px 0; }
+.fenster + .fenster { border-top: 1px dashed var(--linie); }
+.fenster .perle { --groesse: 18px; margin-top: 3px; }
+.fenster-titel { display: flex; flex-wrap: wrap; align-items: baseline; gap: 4px 10px; }
+.fenster-titel strong { font-weight: 650; }
+.fenster-titel .stufe { font-size: 0.85rem; color: var(--text-leise); }
+.fenster[data-stufe='gut'] .stufe, .fenster[data-stufe='sehr-gut'] .stufe { color: var(--bernstein-tief); font-weight: 650; }
+@media (prefers-color-scheme: dark) {
+  .fenster[data-stufe='gut'] .stufe, .fenster[data-stufe='sehr-gut'] .stufe { color: var(--bernstein); }
+}
+.licht { font-size: 0.8rem; padding: 1px 8px; border-radius: 999px; border: 1px solid var(--linie); }
+.licht[data-licht='nacht'] { background: #1d1a3a; color: #d9d2ff; border-color: #3b3570; }
+.licht[data-licht='tag'] { background: var(--flaeche); }
+.daten { grid-column: 2; margin: 4px 0 0; font-size: 0.85rem; color: var(--text-leise); display: flex; flex-wrap: wrap; gap: 2px 14px; }
+.warnungen, .gruende { grid-column: 2; list-style: none; margin: 4px 0 0; padding: 0; font-size: 0.85rem; }
+.warnungen li { color: var(--warnung); }
+.gruende li { color: var(--text-leise); font-style: italic; }
+.fenster[data-vergangen] { opacity: 0.55; }
+
+.fuss { padding: 0 20px 28px; font-size: 0.75rem; color: var(--text-leise); max-width: 70ch; }
+.fuss p { margin: 0 0 8px; }
+
+.leaflet-container { font: inherit; }
+.leaflet-tooltip { font: 0.85rem/1.3 var(--schrift); }

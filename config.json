@@ -1,0 +1,49 @@
+{
+  "orte": [
+    {
+      "name": "Cuxhaven",
+      "station": "cuxhaven_steubenhoeft",
+      "auflandig": { "von": 250, "bis": 360 }
+    },
+    {
+      "name": "Neuwerk",
+      "station": "neuwerk_anleger",
+      "auflandig": { "von": 250, "bis": 360 }
+    },
+    {
+      "name": "Büsum",
+      "station": "buesum_schleuse",
+      "auflandig": { "von": 225, "bis": 340 }
+    }
+  ],
+
+  "schwellen": {
+    "ereignisAbCm": 75,
+    "starkAbCm": 150,
+    "sturmAbBft": 7,
+    "sturmMinStunden": 6,
+    "gefahrBoeenBft": 9
+  },
+
+  "abklingen": {
+    "vollTage": 2,
+    "abklingTage": 3
+  },
+
+  "bonus": {
+    "zweiPhasen": true
+  },
+
+  "fenster": {
+    "strandNachHwStunden": 2,
+    "wattNachHwStunden": 1,
+    "wattVorNwStunden": 1
+  },
+
+  "standardAuflandig": { "von": 225, "bis": 360 },
+
+  "benachrichtigung": {
+    "abBewertung": 0.5,
+    "vorlaufTage": 3
+  }
+}
