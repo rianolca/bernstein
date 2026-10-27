@@ -2,5 +2,17 @@
  "buesum_schleuse|sturm@498045": {
   "stufe": "gut",
   "am": 1793093779867
+ },
+ "cuxhaven_steubenhoeft|hochwasser@498109": {
+  "stufe": "gut",
+  "am": 1793133909278
+ },
+ "neuwerk_anleger|hochwasser@498109": {
+  "stufe": "gut",
+  "am": 1793133909278
+ },
+ "buesum_schleuse|hochwasser@498109": {
+  "stufe": "gut",
+  "am": 1793133909278
  }
 }
