@@ -1,0 +1,75 @@
+# Läuft jede Stunde bei GitHub: holt Daten, baut die Web-App, verschickt Telegram-Meldungen.
+name: Bernstein-Alarm
+
+on:
+  schedule:
+    - cron: "17 * * * *"   # jede Stunde zur Minute 17 (Zeiten in UTC)
+  push:
+    branches: [main]       # nach jeder Änderung (z. B. an config.json) sofort neu bauen
+  workflow_dispatch:       # Knopf "Run workflow" im Reiter Actions
+    inputs:
+      modus:
+        description: "Was soll zusätzlich passieren?"
+        type: choice
+        default: normal
+        options:
+          - normal
+          - telegram-test
+          - chat-id-anzeigen
+
+permissions:
+  contents: write   # um den Ordner state/ zu speichern
+  pages: write      # um die Web-App zu veröffentlichen
+  id-token: write
+
+concurrency:
+  group: bernstein-alarm
+  cancel-in-progress: false
+
+jobs:
+  aktualisieren:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.veroeffentlichen.outputs.page_url }}
+    steps:
+      - name: Code holen
+        uses: actions/checkout@v7
+
+      - name: Node.js einrichten
+        uses: actions/setup-node@v7
+        with:
+          node-version: 22
+
+      - name: Daten holen, bewerten, benachrichtigen
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          MODUS: ${{ inputs.modus || 'normal' }}
+          SEITEN_URL: https://${{ github.repository_owner }}.github.io/${{ github.event.repository.name }}/
+        run: node scripts/update.mjs
+
+      - name: Gedächtnis (Ordner state) speichern
+        run: |
+          if [ -n "$(git status --porcelain state)" ]; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add state
+            git commit -m "Zustand aktualisiert [skip ci]"
+            git pull --rebase
+            git push
+          else
+            echo "Keine Änderungen am Zustand."
+          fi
+
+      - name: GitHub Pages vorbereiten
+        uses: actions/configure-pages@v6
+
+      - name: Web-App hochladen
+        uses: actions/upload-pages-artifact@v5
+        with:
+          path: _site
+
+      - name: Web-App veröffentlichen
+        id: veroeffentlichen
+        uses: actions/deploy-pages@v5
