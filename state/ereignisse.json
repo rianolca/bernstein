@@ -6,16 +6,16 @@
    "quelle": "gemessen"
   },
   {
-   "t": 1793193600000,
-   "abw": 100,
-   "quelle": "vorhersage"
+   "t": 1793192400000,
+   "abw": 132,
+   "quelle": "gemessen"
   }
  ],
  "alte_weser_leuchtturm": [
   {
-   "t": 1793189580000,
-   "abw": 100,
-   "quelle": "vorhersage"
+   "t": 1793188800000,
+   "abw": 99,
+   "quelle": "gemessen"
   }
  ],
  "amrum_odde": [
@@ -41,23 +41,23 @@
  ],
  "bremerhaven_alter_leuchtturm": [
   {
-   "t": 1793194080000,
-   "abw": 100,
-   "quelle": "vorhersage"
+   "t": 1793191800000,
+   "abw": 94,
+   "quelle": "gemessen"
   }
  ],
  "buesum_schleuse": [
   {
-   "t": 1793192460000,
-   "abw": 100,
-   "quelle": "vorhersage"
+   "t": 1793191800000,
+   "abw": 104,
+   "quelle": "gemessen"
   }
  ],
  "cuxhaven_steubenhoeft": [
   {
-   "t": 1793193420000,
-   "abw": 87,
-   "quelle": "vorhersage"
+   "t": 1793191200000,
+   "abw": 102,
+   "quelle": "gemessen"
   }
  ],
  "der_strand_hamburger_hallig": [
@@ -69,16 +69,16 @@
  ],
  "dwarsgat": [
   {
-   "t": 1793191680000,
-   "abw": 100,
-   "quelle": "vorhersage"
+   "t": 1793190600000,
+   "abw": 101,
+   "quelle": "gemessen"
   }
  ],
  "emden_grosse_seeschleuse": [
   {
-   "t": 1793191260000,
-   "abw": 100,
-   "quelle": "vorhersage"
+   "t": 1793188200000,
+   "abw": 92,
+   "quelle": "gemessen"
   }
  ],
  "groede_anleger": [
@@ -97,30 +97,30 @@
  ],
  "helgoland_binnenhafen": [
   {
-   "t": 1793188680000,
-   "abw": 87,
-   "quelle": "vorhersage"
+   "t": 1793188200000,
+   "abw": 89,
+   "quelle": "gemessen"
   }
  ],
  "hooge_anleger": [
   {
-   "t": 1793194380000,
-   "abw": 87,
-   "quelle": "vorhersage"
+   "t": 1793193600000,
+   "abw": 97,
+   "quelle": "gemessen"
   }
  ],
  "hooksielplate": [
   {
-   "t": 1793191560000,
-   "abw": 100,
-   "quelle": "vorhersage"
+   "t": 1793190000000,
+   "abw": 103,
+   "quelle": "gemessen"
   }
  ],
  "husum_schleuse": [
   {
-   "t": 1793196240000,
-   "abw": 100,
-   "quelle": "vorhersage"
+   "t": 1793195400000,
+   "abw": 103,
+   "quelle": "gemessen"
   }
  ],
  "knock": [
@@ -209,9 +209,9 @@
  ],
  "scharhoernriff_bake_a": [
   {
-   "t": 1793189640000,
-   "abw": 100,
-   "quelle": "vorhersage"
+   "t": 1793188200000,
+   "abw": 99,
+   "quelle": "gemessen"
   }
  ],
  "schillig": [
@@ -286,9 +286,9 @@
  ],
  "wilhelmshaven_alter_vorhafen": [
   {
-   "t": 1793192760000,
-   "abw": 100,
-   "quelle": "vorhersage"
+   "t": 1793190600000,
+   "abw": 109,
+   "quelle": "gemessen"
   }
  ],
  "wilhelmshaven_neuer_vorhafen_seeschleuse": [
@@ -300,9 +300,128 @@
  ],
  "wittduen_hafen": [
   {
-   "t": 1793194320000,
-   "abw": 87,
-   "quelle": "vorhersage"
+   "t": 1793194200000,
+   "abw": 94,
+   "quelle": "gemessen"
+  }
+ ],
+ "belum": [
+  {
+   "t": 1793194800000,
+   "abw": 105,
+   "quelle": "gemessen"
+  }
+ ],
+ "brake": [
+  {
+   "t": 1793195400000,
+   "abw": 92,
+   "quelle": "gemessen"
+  }
+ ],
+ "bremen_oslebshausen": [
+  {
+   "t": 1793199600000,
+   "abw": 112,
+   "quelle": "gemessen"
+  }
+ ],
+ "bremen_wilhelm-kaisen-bruecke": [
+  {
+   "t": 1793199000000,
+   "abw": 112,
+   "quelle": "gemessen"
+  }
+ ],
+ "brokdorf": [
+  {
+   "t": 1793197200000,
+   "abw": 96,
+   "quelle": "gemessen"
+  }
+ ],
+ "brunsbuettel_ost": [
+  {
+   "t": 1793196600000,
+   "abw": 89,
+   "quelle": "gemessen"
+  }
+ ],
+ "elsfleth": [
+  {
+   "t": 1793197200000,
+   "abw": 93,
+   "quelle": "gemessen"
+  }
+ ],
+ "glueckstadt": [
+  {
+   "t": 1793199000000,
+   "abw": 94,
+   "quelle": "gemessen"
+  }
+ ],
+ "hamburg_dove-elbe_einfahrt": [
+  {
+   "t": 1793205000000,
+   "abw": 88,
+   "quelle": "gemessen"
+  }
+ ],
+ "hamburg_st-pauli": [
+  {
+   "t": 1793204400000,
+   "abw": 91,
+   "quelle": "gemessen"
+  }
+ ],
+ "hoernum_hafen": [
+  {
+   "t": 1793195400000,
+   "abw": 95,
+   "quelle": "gemessen"
+  }
+ ],
+ "leerort": [
+  {
+   "t": 1793191800000,
+   "abw": 101,
+   "quelle": "gemessen"
+  }
+ ],
+ "list_hafen": [
+  {
+   "t": 1793197200000,
+   "abw": 83,
+   "quelle": "gemessen"
+  }
+ ],
+ "papenburg": [
+  {
+   "t": 1793193900000,
+   "abw": 95,
+   "quelle": "gemessen"
+  }
+ ],
+ "rechtenfleth": [
+  {
+   "t": 1793194800000,
+   "abw": 86,
+   "quelle": "gemessen"
+  }
+ ],
+ "schulau": [
+  {
+   "t": 1793203800000,
+   "abw": 91,
+   "quelle": "gemessen"
+  }
+ ],
+ "stadersand": [
+  {
+   "t": 1793201400000,
+   "abw": 92,
+   "quelle": "gemessen"
   }
  ]
 }
