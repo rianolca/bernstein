@@ -1,1 +1,9 @@
-{}
+{
+ "eider-sperrwerk_aussenpegel": [
+  {
+   "t": 1793150400000,
+   "abw": 86,
+   "quelle": "gemessen"
+  }
+ ]
+}
