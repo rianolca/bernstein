@@ -76,7 +76,7 @@
  ],
  "emden_grosse_seeschleuse": [
   {
-   "t": 1793188200000,
+   "t": 1793188800000,
    "abw": 92,
    "quelle": "gemessen"
   }
@@ -209,7 +209,7 @@
  ],
  "scharhoernriff_bake_a": [
   {
-   "t": 1793188200000,
+   "t": 1793188800000,
    "abw": 99,
    "quelle": "gemessen"
   }
@@ -421,6 +421,20 @@
   {
    "t": 1793201400000,
    "abw": 92,
+   "quelle": "gemessen"
+  }
+ ],
+ "geesthacht_wehr_unterpegel": [
+  {
+   "t": 1793208600000,
+   "abw": 84,
+   "quelle": "gemessen"
+  }
+ ],
+ "hamburg_zollenspieker": [
+  {
+   "t": 1793208000000,
+   "abw": 86,
    "quelle": "gemessen"
   }
  ]
