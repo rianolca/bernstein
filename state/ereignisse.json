@@ -1,16 +1,1 @@
-{
- "geesthacht_wehr_unterpegel": [
-  {
-   "t": 1793208600000,
-   "abw": 84,
-   "quelle": "gemessen"
-  }
- ],
- "hamburg_zollenspieker": [
-  {
-   "t": 1793208000000,
-   "abw": 86,
-   "quelle": "gemessen"
-  }
- ]
-}
+{}
