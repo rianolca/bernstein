@@ -1,1 +1,16 @@
-{}
+{
+ "rechtenfleth": [
+  {
+   "t": 1794394200000,
+   "abw": 348,
+   "quelle": "gemessen"
+  }
+ ],
+ "wangerooge_nord": [
+  {
+   "t": 1794388800000,
+   "abw": 143,
+   "quelle": "gemessen"
+  }
+ ]
+}
