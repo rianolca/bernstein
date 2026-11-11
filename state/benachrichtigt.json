@@ -1,6 +1,14 @@
 {
- "cuxhaven_steubenhoeft|hochwasser@498109": {
+ "cuxhaven_steubenhoeft|hochwasser@498470": {
   "stufe": "sehr-gut",
-  "am": 1793216291159
+  "am": 1794437102691
+ },
+ "neuwerk_anleger|hochwasser@498469": {
+  "stufe": "gut",
+  "am": 1794437102691
+ },
+ "buesum_schleuse|hochwasser@498469": {
+  "stufe": "sehr-gut",
+  "am": 1794437102691
  }
 }
