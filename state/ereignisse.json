@@ -4,6 +4,11 @@
    "t": 1794395400000,
    "abw": 348,
    "quelle": "gemessen"
+  },
+  {
+   "t": 1794495600000,
+   "abw": 98,
+   "quelle": "gemessen"
   }
  ],
  "wangerooge_nord": [
@@ -13,16 +18,16 @@
    "quelle": "gemessen"
   },
   {
-   "t": 1794486060000,
+   "t": 1794486600000,
    "abw": 87,
-   "quelle": "vorhersage"
+   "quelle": "gemessen"
   }
  ],
  "alte_weser_leuchtturm": [
   {
-   "t": 1794487260000,
-   "abw": 87,
-   "quelle": "vorhersage"
+   "t": 1794487800000,
+   "abw": 92,
+   "quelle": "gemessen"
   }
  ],
  "bensersiel": [
@@ -41,9 +46,9 @@
  ],
  "helgoland_binnenhafen": [
   {
-   "t": 1794486420000,
-   "abw": 75,
-   "quelle": "vorhersage"
+   "t": 1794487800000,
+   "abw": 84,
+   "quelle": "gemessen"
   }
  ],
  "knock": [
@@ -69,16 +74,16 @@
  ],
  "norderney_riffgat": [
   {
-   "t": 1794484800000,
-   "abw": 75,
-   "quelle": "vorhersage"
+   "t": 1794484200000,
+   "abw": 79,
+   "quelle": "gemessen"
   }
  ],
  "scharhoernriff_bake_a": [
   {
-   "t": 1794487200000,
+   "t": 1794489000000,
    "abw": 100,
-   "quelle": "vorhersage"
+   "quelle": "gemessen"
   }
  ],
  "spiekeroog": [
@@ -100,6 +105,188 @@
    "t": 1794487020000,
    "abw": 87,
    "quelle": "vorhersage"
+  }
+ ],
+ "belum": [
+  {
+   "t": 1794490800000,
+   "abw": 147,
+   "quelle": "gemessen"
+  }
+ ],
+ "brake": [
+  {
+   "t": 1794496200000,
+   "abw": 105,
+   "quelle": "gemessen"
+  }
+ ],
+ "bremen_oslebshausen": [
+  {
+   "t": 1794498600000,
+   "abw": 113,
+   "quelle": "gemessen"
+  }
+ ],
+ "bremen_wilhelm-kaisen-bruecke": [
+  {
+   "t": 1794499200000,
+   "abw": 114,
+   "quelle": "gemessen"
+  }
+ ],
+ "bremerhaven_alter_leuchtturm": [
+  {
+   "t": 1794493200000,
+   "abw": 102,
+   "quelle": "gemessen"
+  }
+ ],
+ "brokdorf": [
+  {
+   "t": 1794496200000,
+   "abw": 115,
+   "quelle": "gemessen"
+  }
+ ],
+ "brunsbuettel_ost": [
+  {
+   "t": 1794494880000,
+   "abw": 108,
+   "quelle": "gemessen"
+  }
+ ],
+ "buesum_schleuse": [
+  {
+   "t": 1794491400000,
+   "abw": 117,
+   "quelle": "gemessen"
+  }
+ ],
+ "cuxhaven_steubenhoeft": [
+  {
+   "t": 1794492000000,
+   "abw": 120,
+   "quelle": "gemessen"
+  }
+ ],
+ "dwarsgat": [
+  {
+   "t": 1794490800000,
+   "abw": 99,
+   "quelle": "gemessen"
+  }
+ ],
+ "eider-sperrwerk_aussenpegel": [
+  {
+   "t": 1794490200000,
+   "abw": 134,
+   "quelle": "gemessen"
+  }
+ ],
+ "elsfleth": [
+  {
+   "t": 1794496800000,
+   "abw": 106,
+   "quelle": "gemessen"
+  }
+ ],
+ "emden_grosse_seeschleuse": [
+  {
+   "t": 1794488400000,
+   "abw": 77,
+   "quelle": "gemessen"
+  }
+ ],
+ "geesthacht_wehr_unterpegel": [
+  {
+   "t": 1794508200000,
+   "abw": 107,
+   "quelle": "gemessen"
+  }
+ ],
+ "glueckstadt": [
+  {
+   "t": 1794497400000,
+   "abw": 109,
+   "quelle": "gemessen"
+  }
+ ],
+ "hamburg_dove-elbe_einfahrt": [
+  {
+   "t": 1794504000000,
+   "abw": 108,
+   "quelle": "gemessen"
+  }
+ ],
+ "hamburg_st-pauli": [
+  {
+   "t": 1794503400000,
+   "abw": 111,
+   "quelle": "gemessen"
+  }
+ ],
+ "hamburg_zollenspieker": [
+  {
+   "t": 1794507000000,
+   "abw": 105,
+   "quelle": "gemessen"
+  }
+ ],
+ "hooge_anleger": [
+  {
+   "t": 1794492000000,
+   "abw": 82,
+   "quelle": "gemessen"
+  }
+ ],
+ "hooksielplate": [
+  {
+   "t": 1794489600000,
+   "abw": 96,
+   "quelle": "gemessen"
+  }
+ ],
+ "husum_schleuse": [
+  {
+   "t": 1794493200000,
+   "abw": 117,
+   "quelle": "gemessen"
+  }
+ ],
+ "leerort": [
+  {
+   "t": 1794490380000,
+   "abw": 87,
+   "quelle": "gemessen"
+  }
+ ],
+ "papenburg": [
+  {
+   "t": 1794492600000,
+   "abw": 79,
+   "quelle": "gemessen"
+  }
+ ],
+ "schulau": [
+  {
+   "t": 1794501600000,
+   "abw": 108,
+   "quelle": "gemessen"
+  }
+ ],
+ "stadersand": [
+  {
+   "t": 1794500400000,
+   "abw": 108,
+   "quelle": "gemessen"
+  }
+ ],
+ "wilhelmshaven_alter_vorhafen": [
+  {
+   "t": 1794490800000,
+   "abw": 98,
+   "quelle": "gemessen"
   }
  ]
 }
