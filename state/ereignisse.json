@@ -11,6 +11,95 @@
    "t": 1794388800000,
    "abw": 143,
    "quelle": "gemessen"
+  },
+  {
+   "t": 1794486060000,
+   "abw": 87,
+   "quelle": "vorhersage"
+  }
+ ],
+ "alte_weser_leuchtturm": [
+  {
+   "t": 1794487260000,
+   "abw": 87,
+   "quelle": "vorhersage"
+  }
+ ],
+ "bensersiel": [
+  {
+   "t": 1794486360000,
+   "abw": 87,
+   "quelle": "vorhersage"
+  }
+ ],
+ "harlesiel": [
+  {
+   "t": 1794486780000,
+   "abw": 87,
+   "quelle": "vorhersage"
+  }
+ ],
+ "helgoland_binnenhafen": [
+  {
+   "t": 1794486420000,
+   "abw": 75,
+   "quelle": "vorhersage"
+  }
+ ],
+ "knock": [
+  {
+   "t": 1794487260000,
+   "abw": 75,
+   "quelle": "vorhersage"
+  }
+ ],
+ "langeoog_hafeneinfahrt": [
+  {
+   "t": 1794486420000,
+   "abw": 87,
+   "quelle": "vorhersage"
+  }
+ ],
+ "leyhoern_leybucht": [
+  {
+   "t": 1794485220000,
+   "abw": 75,
+   "quelle": "vorhersage"
+  }
+ ],
+ "norderney_riffgat": [
+  {
+   "t": 1794484800000,
+   "abw": 75,
+   "quelle": "vorhersage"
+  }
+ ],
+ "scharhoernriff_bake_a": [
+  {
+   "t": 1794487200000,
+   "abw": 100,
+   "quelle": "vorhersage"
+  }
+ ],
+ "spiekeroog": [
+  {
+   "t": 1794486660000,
+   "abw": 87,
+   "quelle": "vorhersage"
+  }
+ ],
+ "wangerooge_hafen": [
+  {
+   "t": 1794486720000,
+   "abw": 87,
+   "quelle": "vorhersage"
+  }
+ ],
+ "wangerooge_ost": [
+  {
+   "t": 1794487020000,
+   "abw": 87,
+   "quelle": "vorhersage"
   }
  ]
 }
