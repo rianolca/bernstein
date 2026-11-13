@@ -187,6 +187,11 @@
    "t": 1794535200000,
    "abw": 129,
    "quelle": "gemessen"
+  },
+  {
+   "t": 1794582960000,
+   "abw": 75,
+   "quelle": "vorhersage"
   }
  ],
  "brake": [
@@ -247,6 +252,11 @@
    "t": 1794540000000,
    "abw": 123,
    "quelle": "gemessen"
+  },
+  {
+   "t": 1794585480000,
+   "abw": 75,
+   "quelle": "vorhersage"
   }
  ],
  "brunsbuettel_ost": [
@@ -259,6 +269,11 @@
    "t": 1794538200000,
    "abw": 114,
    "quelle": "gemessen"
+  },
+  {
+   "t": 1794583320000,
+   "abw": 75,
+   "quelle": "vorhersage"
   }
  ],
  "buesum_schleuse": [
@@ -283,6 +298,11 @@
    "t": 1794535200000,
    "abw": 124,
    "quelle": "gemessen"
+  },
+  {
+   "t": 1794579420000,
+   "abw": 75,
+   "quelle": "vorhersage"
   }
  ],
  "dwarsgat": [
@@ -306,6 +326,11 @@
   {
    "t": 1794533400000,
    "abw": 137,
+   "quelle": "gemessen"
+  },
+  {
+   "t": 1794579000000,
+   "abw": 85,
    "quelle": "gemessen"
   }
  ],
@@ -578,6 +603,27 @@
    "t": 1794534600000,
    "abw": 87,
    "quelle": "gemessen"
+  }
+ ],
+ "hamburg_cranz": [
+  {
+   "t": 1794591120000,
+   "abw": 75,
+   "quelle": "vorhersage"
+  }
+ ],
+ "leda-sperrwerk_unterpegel": [
+  {
+   "t": 1794579540000,
+   "abw": 75,
+   "quelle": "vorhersage"
+  }
+ ],
+ "otterndorf": [
+  {
+   "t": 1794581160000,
+   "abw": 75,
+   "quelle": "vorhersage"
   }
  ]
 }
