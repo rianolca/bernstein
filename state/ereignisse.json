@@ -9,6 +9,11 @@
    "t": 1794495600000,
    "abw": 98,
    "quelle": "gemessen"
+  },
+  {
+   "t": 1794536400000,
+   "abw": 114,
+   "quelle": "gemessen"
   }
  ],
  "wangerooge_nord": [
@@ -23,9 +28,9 @@
    "quelle": "gemessen"
   },
   {
-   "t": 1794529800000,
+   "t": 1794528000000,
    "abw": 100,
-   "quelle": "vorhersage"
+   "quelle": "gemessen"
   }
  ],
  "alte_weser_leuchtturm": [
@@ -35,9 +40,9 @@
    "quelle": "gemessen"
   },
   {
-   "t": 1794531000000,
-   "abw": 100,
-   "quelle": "vorhersage"
+   "t": 1794530400000,
+   "abw": 103,
+   "quelle": "gemessen"
   }
  ],
  "bensersiel": [
@@ -71,9 +76,9 @@
    "quelle": "gemessen"
   },
   {
-   "t": 1794530280000,
-   "abw": 87,
-   "quelle": "vorhersage"
+   "t": 1794529200000,
+   "abw": 95,
+   "quelle": "gemessen"
   }
  ],
  "knock": [
@@ -119,9 +124,9 @@
    "quelle": "gemessen"
   },
   {
-   "t": 1794528480000,
-   "abw": 100,
-   "quelle": "vorhersage"
+   "t": 1794527400000,
+   "abw": 102,
+   "quelle": "gemessen"
   }
  ],
  "scharhoernriff_bake_a": [
@@ -131,9 +136,9 @@
    "quelle": "gemessen"
   },
   {
-   "t": 1794531000000,
-   "abw": 100,
-   "quelle": "vorhersage"
+   "t": 1794531600000,
+   "abw": 105,
+   "quelle": "gemessen"
   }
  ],
  "spiekeroog": [
@@ -177,12 +182,22 @@
    "t": 1794490800000,
    "abw": 147,
    "quelle": "gemessen"
+  },
+  {
+   "t": 1794535200000,
+   "abw": 129,
+   "quelle": "gemessen"
   }
  ],
  "brake": [
   {
    "t": 1794496200000,
    "abw": 105,
+   "quelle": "gemessen"
+  },
+  {
+   "t": 1794537600000,
+   "abw": 121,
    "quelle": "gemessen"
   }
  ],
@@ -191,12 +206,22 @@
    "t": 1794498600000,
    "abw": 113,
    "quelle": "gemessen"
+  },
+  {
+   "t": 1794540600000,
+   "abw": 133,
+   "quelle": "gemessen"
   }
  ],
  "bremen_wilhelm-kaisen-bruecke": [
   {
    "t": 1794499200000,
    "abw": 114,
+   "quelle": "gemessen"
+  },
+  {
+   "t": 1794541800000,
+   "abw": 132,
    "quelle": "gemessen"
   }
  ],
@@ -205,6 +230,11 @@
    "t": 1794493200000,
    "abw": 102,
    "quelle": "gemessen"
+  },
+  {
+   "t": 1794534000000,
+   "abw": 120,
+   "quelle": "gemessen"
   }
  ],
  "brokdorf": [
@@ -212,12 +242,22 @@
    "t": 1794496200000,
    "abw": 115,
    "quelle": "gemessen"
+  },
+  {
+   "t": 1794540000000,
+   "abw": 123,
+   "quelle": "gemessen"
   }
  ],
  "brunsbuettel_ost": [
   {
    "t": 1794494880000,
    "abw": 108,
+   "quelle": "gemessen"
+  },
+  {
+   "t": 1794538200000,
+   "abw": 114,
    "quelle": "gemessen"
   }
  ],
@@ -228,9 +268,9 @@
    "quelle": "gemessen"
   },
   {
-   "t": 1794533760000,
-   "abw": 125,
-   "quelle": "vorhersage"
+   "t": 1794534000000,
+   "abw": 118,
+   "quelle": "gemessen"
   }
  ],
  "cuxhaven_steubenhoeft": [
@@ -240,9 +280,9 @@
    "quelle": "gemessen"
   },
   {
-   "t": 1794534840000,
-   "abw": 125,
-   "quelle": "vorhersage"
+   "t": 1794535200000,
+   "abw": 124,
+   "quelle": "gemessen"
   }
  ],
  "dwarsgat": [
@@ -252,9 +292,9 @@
    "quelle": "gemessen"
   },
   {
-   "t": 1794532920000,
-   "abw": 125,
-   "quelle": "vorhersage"
+   "t": 1794532200000,
+   "abw": 116,
+   "quelle": "gemessen"
   }
  ],
  "eider-sperrwerk_aussenpegel": [
@@ -262,12 +302,22 @@
    "t": 1794490200000,
    "abw": 134,
    "quelle": "gemessen"
+  },
+  {
+   "t": 1794533400000,
+   "abw": 137,
+   "quelle": "gemessen"
   }
  ],
  "elsfleth": [
   {
    "t": 1794496800000,
    "abw": 106,
+   "quelle": "gemessen"
+  },
+  {
+   "t": 1794538200000,
+   "abw": 121,
    "quelle": "gemessen"
   }
  ],
@@ -278,15 +328,20 @@
    "quelle": "gemessen"
   },
   {
-   "t": 1794532320000,
-   "abw": 125,
-   "quelle": "vorhersage"
+   "t": 1794529200000,
+   "abw": 115,
+   "quelle": "gemessen"
   }
  ],
  "geesthacht_wehr_unterpegel": [
   {
    "t": 1794508200000,
    "abw": 107,
+   "quelle": "gemessen"
+  },
+  {
+   "t": 1794550200000,
+   "abw": 111,
    "quelle": "gemessen"
   }
  ],
@@ -295,12 +350,22 @@
    "t": 1794497400000,
    "abw": 109,
    "quelle": "gemessen"
+  },
+  {
+   "t": 1794541200000,
+   "abw": 119,
+   "quelle": "gemessen"
   }
  ],
  "hamburg_dove-elbe_einfahrt": [
   {
    "t": 1794504000000,
    "abw": 108,
+   "quelle": "gemessen"
+  },
+  {
+   "t": 1794547200000,
+   "abw": 113,
    "quelle": "gemessen"
   }
  ],
@@ -309,6 +374,11 @@
    "t": 1794503400000,
    "abw": 111,
    "quelle": "gemessen"
+  },
+  {
+   "t": 1794546000000,
+   "abw": 114,
+   "quelle": "gemessen"
   }
  ],
  "hamburg_zollenspieker": [
@@ -316,12 +386,22 @@
    "t": 1794507000000,
    "abw": 105,
    "quelle": "gemessen"
+  },
+  {
+   "t": 1794549600000,
+   "abw": 113,
+   "quelle": "gemessen"
   }
  ],
  "hooge_anleger": [
   {
    "t": 1794492000000,
    "abw": 82,
+   "quelle": "gemessen"
+  },
+  {
+   "t": 1794535800000,
+   "abw": 96,
    "quelle": "gemessen"
   }
  ],
@@ -332,15 +412,20 @@
    "quelle": "gemessen"
   },
   {
-   "t": 1794532860000,
-   "abw": 125,
-   "quelle": "vorhersage"
+   "t": 1794531000000,
+   "abw": 114,
+   "quelle": "gemessen"
   }
  ],
  "husum_schleuse": [
   {
    "t": 1794493200000,
    "abw": 117,
+   "quelle": "gemessen"
+  },
+  {
+   "t": 1794536400000,
+   "abw": 106,
    "quelle": "gemessen"
   }
  ],
@@ -349,12 +434,22 @@
    "t": 1794490380000,
    "abw": 87,
    "quelle": "gemessen"
+  },
+  {
+   "t": 1794532800000,
+   "abw": 122,
+   "quelle": "gemessen"
   }
  ],
  "papenburg": [
   {
    "t": 1794492600000,
    "abw": 79,
+   "quelle": "gemessen"
+  },
+  {
+   "t": 1794535200000,
+   "abw": 113,
    "quelle": "gemessen"
   }
  ],
@@ -363,12 +458,22 @@
    "t": 1794501600000,
    "abw": 108,
    "quelle": "gemessen"
+  },
+  {
+   "t": 1794544200000,
+   "abw": 114,
+   "quelle": "gemessen"
   }
  ],
  "stadersand": [
   {
    "t": 1794500400000,
    "abw": 108,
+   "quelle": "gemessen"
+  },
+  {
+   "t": 1794543000000,
+   "abw": 117,
    "quelle": "gemessen"
   }
  ],
@@ -379,9 +484,9 @@
    "quelle": "gemessen"
   },
   {
-   "t": 1794533760000,
-   "abw": 125,
-   "quelle": "vorhersage"
+   "t": 1794533400000,
+   "abw": 114,
+   "quelle": "gemessen"
   }
  ],
  "amrum_odde": [
@@ -452,6 +557,27 @@
    "t": 1794533580000,
    "abw": 125,
    "quelle": "vorhersage"
+  }
+ ],
+ "hoernum_hafen": [
+  {
+   "t": 1794538800000,
+   "abw": 88,
+   "quelle": "gemessen"
+  }
+ ],
+ "list_hafen": [
+  {
+   "t": 1794537000000,
+   "abw": 83,
+   "quelle": "gemessen"
+  }
+ ],
+ "wittduen_hafen": [
+  {
+   "t": 1794534600000,
+   "abw": 87,
+   "quelle": "gemessen"
   }
  ]
 }
