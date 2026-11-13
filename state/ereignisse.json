@@ -21,6 +21,11 @@
    "t": 1794486600000,
    "abw": 87,
    "quelle": "gemessen"
+  },
+  {
+   "t": 1794529800000,
+   "abw": 100,
+   "quelle": "vorhersage"
   }
  ],
  "alte_weser_leuchtturm": [
@@ -28,12 +33,22 @@
    "t": 1794487800000,
    "abw": 92,
    "quelle": "gemessen"
+  },
+  {
+   "t": 1794531000000,
+   "abw": 100,
+   "quelle": "vorhersage"
   }
  ],
  "bensersiel": [
   {
    "t": 1794486360000,
    "abw": 87,
+   "quelle": "vorhersage"
+  },
+  {
+   "t": 1794529920000,
+   "abw": 100,
    "quelle": "vorhersage"
   }
  ],
@@ -42,6 +57,11 @@
    "t": 1794486780000,
    "abw": 87,
    "quelle": "vorhersage"
+  },
+  {
+   "t": 1794530400000,
+   "abw": 100,
+   "quelle": "vorhersage"
   }
  ],
  "helgoland_binnenhafen": [
@@ -49,12 +69,22 @@
    "t": 1794487800000,
    "abw": 84,
    "quelle": "gemessen"
+  },
+  {
+   "t": 1794530280000,
+   "abw": 87,
+   "quelle": "vorhersage"
   }
  ],
  "knock": [
   {
    "t": 1794487260000,
    "abw": 75,
+   "quelle": "vorhersage"
+  },
+  {
+   "t": 1794531000000,
+   "abw": 125,
    "quelle": "vorhersage"
   }
  ],
@@ -63,12 +93,22 @@
    "t": 1794486420000,
    "abw": 87,
    "quelle": "vorhersage"
+  },
+  {
+   "t": 1794529980000,
+   "abw": 100,
+   "quelle": "vorhersage"
   }
  ],
  "leyhoern_leybucht": [
   {
    "t": 1794485220000,
    "abw": 75,
+   "quelle": "vorhersage"
+  },
+  {
+   "t": 1794528720000,
+   "abw": 125,
    "quelle": "vorhersage"
   }
  ],
@@ -77,6 +117,11 @@
    "t": 1794484200000,
    "abw": 79,
    "quelle": "gemessen"
+  },
+  {
+   "t": 1794528480000,
+   "abw": 100,
+   "quelle": "vorhersage"
   }
  ],
  "scharhoernriff_bake_a": [
@@ -84,12 +129,22 @@
    "t": 1794489000000,
    "abw": 100,
    "quelle": "gemessen"
+  },
+  {
+   "t": 1794531000000,
+   "abw": 100,
+   "quelle": "vorhersage"
   }
  ],
  "spiekeroog": [
   {
    "t": 1794486660000,
    "abw": 87,
+   "quelle": "vorhersage"
+  },
+  {
+   "t": 1794530160000,
+   "abw": 100,
    "quelle": "vorhersage"
   }
  ],
@@ -98,12 +153,22 @@
    "t": 1794486720000,
    "abw": 87,
    "quelle": "vorhersage"
+  },
+  {
+   "t": 1794530400000,
+   "abw": 100,
+   "quelle": "vorhersage"
   }
  ],
  "wangerooge_ost": [
   {
    "t": 1794487020000,
    "abw": 87,
+   "quelle": "vorhersage"
+  },
+  {
+   "t": 1794530760000,
+   "abw": 100,
    "quelle": "vorhersage"
   }
  ],
@@ -161,6 +226,11 @@
    "t": 1794491400000,
    "abw": 117,
    "quelle": "gemessen"
+  },
+  {
+   "t": 1794533760000,
+   "abw": 125,
+   "quelle": "vorhersage"
   }
  ],
  "cuxhaven_steubenhoeft": [
@@ -168,6 +238,11 @@
    "t": 1794492000000,
    "abw": 120,
    "quelle": "gemessen"
+  },
+  {
+   "t": 1794534840000,
+   "abw": 125,
+   "quelle": "vorhersage"
   }
  ],
  "dwarsgat": [
@@ -175,6 +250,11 @@
    "t": 1794490800000,
    "abw": 99,
    "quelle": "gemessen"
+  },
+  {
+   "t": 1794532920000,
+   "abw": 125,
+   "quelle": "vorhersage"
   }
  ],
  "eider-sperrwerk_aussenpegel": [
@@ -196,6 +276,11 @@
    "t": 1794488400000,
    "abw": 77,
    "quelle": "gemessen"
+  },
+  {
+   "t": 1794532320000,
+   "abw": 125,
+   "quelle": "vorhersage"
   }
  ],
  "geesthacht_wehr_unterpegel": [
@@ -245,6 +330,11 @@
    "t": 1794489600000,
    "abw": 96,
    "quelle": "gemessen"
+  },
+  {
+   "t": 1794532860000,
+   "abw": 125,
+   "quelle": "vorhersage"
   }
  ],
  "husum_schleuse": [
@@ -287,6 +377,81 @@
    "t": 1794490800000,
    "abw": 98,
    "quelle": "gemessen"
+  },
+  {
+   "t": 1794533760000,
+   "abw": 125,
+   "quelle": "vorhersage"
+  }
+ ],
+ "amrum_odde": [
+  {
+   "t": 1794534180000,
+   "abw": 100,
+   "quelle": "vorhersage"
+  }
+ ],
+ "borkum_fischerbalje": [
+  {
+   "t": 1794525600000,
+   "abw": 102,
+   "quelle": "gemessen"
+  }
+ ],
+ "meldorf_sperrwerk_aussenpegel": [
+  {
+   "t": 1794534060000,
+   "abw": 125,
+   "quelle": "vorhersage"
+  }
+ ],
+ "neuwerk_anleger": [
+  {
+   "t": 1794533160000,
+   "abw": 125,
+   "quelle": "vorhersage"
+  }
+ ],
+ "scharhoern_bake_c": [
+  {
+   "t": 1794531960000,
+   "abw": 125,
+   "quelle": "vorhersage"
+  }
+ ],
+ "schillig": [
+  {
+   "t": 1794532140000,
+   "abw": 100,
+   "quelle": "vorhersage"
+  }
+ ],
+ "spieka_neufeld": [
+  {
+   "t": 1794533220000,
+   "abw": 125,
+   "quelle": "vorhersage"
+  }
+ ],
+ "suederoogsand": [
+  {
+   "t": 1794534300000,
+   "abw": 100,
+   "quelle": "vorhersage"
+  }
+ ],
+ "westerland": [
+  {
+   "t": 1794533160000,
+   "abw": 87,
+   "quelle": "vorhersage"
+  }
+ ],
+ "wilhelmshaven_neuer_vorhafen_seeschleuse": [
+  {
+   "t": 1794533580000,
+   "abw": 125,
+   "quelle": "vorhersage"
   }
  ]
 }
