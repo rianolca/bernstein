@@ -1,22 +1,12 @@
 {
  "rechtenfleth": [
   {
-   "t": 1794495600000,
-   "abw": 98,
-   "quelle": "gemessen"
-  },
-  {
    "t": 1794536400000,
    "abw": 114,
    "quelle": "gemessen"
   }
  ],
  "wangerooge_nord": [
-  {
-   "t": 1794486600000,
-   "abw": 87,
-   "quelle": "gemessen"
-  },
   {
    "t": 1794528000000,
    "abw": 100,
@@ -25,22 +15,12 @@
  ],
  "alte_weser_leuchtturm": [
   {
-   "t": 1794487800000,
-   "abw": 92,
-   "quelle": "gemessen"
-  },
-  {
    "t": 1794530400000,
    "abw": 103,
    "quelle": "gemessen"
   }
  ],
  "bensersiel": [
-  {
-   "t": 1794486360000,
-   "abw": 87,
-   "quelle": "vorhersage"
-  },
   {
    "t": 1794529920000,
    "abw": 100,
@@ -49,22 +29,12 @@
  ],
  "harlesiel": [
   {
-   "t": 1794486780000,
-   "abw": 87,
-   "quelle": "vorhersage"
-  },
-  {
    "t": 1794530400000,
    "abw": 100,
    "quelle": "vorhersage"
   }
  ],
  "helgoland_binnenhafen": [
-  {
-   "t": 1794487800000,
-   "abw": 84,
-   "quelle": "gemessen"
-  },
   {
    "t": 1794529200000,
    "abw": 95,
@@ -73,22 +43,12 @@
  ],
  "knock": [
   {
-   "t": 1794487260000,
-   "abw": 75,
-   "quelle": "vorhersage"
-  },
-  {
    "t": 1794531000000,
    "abw": 125,
    "quelle": "vorhersage"
   }
  ],
  "langeoog_hafeneinfahrt": [
-  {
-   "t": 1794486420000,
-   "abw": 87,
-   "quelle": "vorhersage"
-  },
   {
    "t": 1794529980000,
    "abw": 100,
@@ -97,22 +57,12 @@
  ],
  "leyhoern_leybucht": [
   {
-   "t": 1794485220000,
-   "abw": 75,
-   "quelle": "vorhersage"
-  },
-  {
    "t": 1794528720000,
    "abw": 125,
    "quelle": "vorhersage"
   }
  ],
  "norderney_riffgat": [
-  {
-   "t": 1794484200000,
-   "abw": 79,
-   "quelle": "gemessen"
-  },
   {
    "t": 1794527400000,
    "abw": 102,
@@ -121,22 +71,12 @@
  ],
  "scharhoernriff_bake_a": [
   {
-   "t": 1794489000000,
-   "abw": 100,
-   "quelle": "gemessen"
-  },
-  {
    "t": 1794531600000,
    "abw": 105,
    "quelle": "gemessen"
   }
  ],
  "spiekeroog": [
-  {
-   "t": 1794486660000,
-   "abw": 87,
-   "quelle": "vorhersage"
-  },
   {
    "t": 1794530160000,
    "abw": 100,
@@ -145,11 +85,6 @@
  ],
  "wangerooge_hafen": [
   {
-   "t": 1794486720000,
-   "abw": 87,
-   "quelle": "vorhersage"
-  },
-  {
    "t": 1794530400000,
    "abw": 100,
    "quelle": "vorhersage"
@@ -157,22 +92,12 @@
  ],
  "wangerooge_ost": [
   {
-   "t": 1794487020000,
-   "abw": 87,
-   "quelle": "vorhersage"
-  },
-  {
    "t": 1794530760000,
    "abw": 100,
    "quelle": "vorhersage"
   }
  ],
  "belum": [
-  {
-   "t": 1794490800000,
-   "abw": 147,
-   "quelle": "gemessen"
-  },
   {
    "t": 1794535200000,
    "abw": 129,
@@ -185,11 +110,6 @@
   }
  ],
  "brake": [
-  {
-   "t": 1794496200000,
-   "abw": 105,
-   "quelle": "gemessen"
-  },
   {
    "t": 1794537600000,
    "abw": 121,
@@ -227,22 +147,12 @@
  ],
  "bremerhaven_alter_leuchtturm": [
   {
-   "t": 1794493200000,
-   "abw": 102,
-   "quelle": "gemessen"
-  },
-  {
    "t": 1794534000000,
    "abw": 120,
    "quelle": "gemessen"
   }
  ],
  "brokdorf": [
-  {
-   "t": 1794496200000,
-   "abw": 115,
-   "quelle": "gemessen"
-  },
   {
    "t": 1794540000000,
    "abw": 123,
@@ -256,11 +166,6 @@
  ],
  "brunsbuettel_ost": [
   {
-   "t": 1794494880000,
-   "abw": 108,
-   "quelle": "gemessen"
-  },
-  {
    "t": 1794538200000,
    "abw": 114,
    "quelle": "gemessen"
@@ -273,22 +178,12 @@
  ],
  "buesum_schleuse": [
   {
-   "t": 1794491400000,
-   "abw": 117,
-   "quelle": "gemessen"
-  },
-  {
    "t": 1794534000000,
    "abw": 118,
    "quelle": "gemessen"
   }
  ],
  "cuxhaven_steubenhoeft": [
-  {
-   "t": 1794492000000,
-   "abw": 120,
-   "quelle": "gemessen"
-  },
   {
    "t": 1794535200000,
    "abw": 124,
@@ -302,22 +197,12 @@
  ],
  "dwarsgat": [
   {
-   "t": 1794490800000,
-   "abw": 99,
-   "quelle": "gemessen"
-  },
-  {
    "t": 1794532200000,
    "abw": 116,
    "quelle": "gemessen"
   }
  ],
  "eider-sperrwerk_aussenpegel": [
-  {
-   "t": 1794490200000,
-   "abw": 134,
-   "quelle": "gemessen"
-  },
   {
    "t": 1794533400000,
    "abw": 137,
@@ -331,22 +216,12 @@
  ],
  "elsfleth": [
   {
-   "t": 1794496800000,
-   "abw": 106,
-   "quelle": "gemessen"
-  },
-  {
    "t": 1794538200000,
    "abw": 121,
    "quelle": "gemessen"
   }
  ],
  "emden_grosse_seeschleuse": [
-  {
-   "t": 1794488400000,
-   "abw": 77,
-   "quelle": "gemessen"
-  },
   {
    "t": 1794529200000,
    "abw": 115,
@@ -415,22 +290,12 @@
  ],
  "hooge_anleger": [
   {
-   "t": 1794492000000,
-   "abw": 82,
-   "quelle": "gemessen"
-  },
-  {
    "t": 1794535800000,
    "abw": 96,
    "quelle": "gemessen"
   }
  ],
  "hooksielplate": [
-  {
-   "t": 1794489600000,
-   "abw": 96,
-   "quelle": "gemessen"
-  },
   {
    "t": 1794531000000,
    "abw": 114,
@@ -439,11 +304,6 @@
  ],
  "husum_schleuse": [
   {
-   "t": 1794493200000,
-   "abw": 117,
-   "quelle": "gemessen"
-  },
-  {
    "t": 1794536400000,
    "abw": 106,
    "quelle": "gemessen"
@@ -451,22 +311,12 @@
  ],
  "leerort": [
   {
-   "t": 1794490380000,
-   "abw": 87,
-   "quelle": "gemessen"
-  },
-  {
    "t": 1794532800000,
    "abw": 122,
    "quelle": "gemessen"
   }
  ],
  "papenburg": [
-  {
-   "t": 1794492600000,
-   "abw": 79,
-   "quelle": "gemessen"
-  },
   {
    "t": 1794535200000,
    "abw": 113,
@@ -498,11 +348,6 @@
   }
  ],
  "wilhelmshaven_alter_vorhafen": [
-  {
-   "t": 1794490800000,
-   "abw": 98,
-   "quelle": "gemessen"
-  },
   {
    "t": 1794533400000,
    "abw": 114,
