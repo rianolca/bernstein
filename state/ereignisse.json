@@ -1,119 +1,9 @@
 {
- "rechtenfleth": [
-  {
-   "t": 1794536400000,
-   "abw": 114,
-   "quelle": "gemessen"
-  }
- ],
- "wangerooge_nord": [
-  {
-   "t": 1794528000000,
-   "abw": 100,
-   "quelle": "gemessen"
-  }
- ],
- "alte_weser_leuchtturm": [
-  {
-   "t": 1794530400000,
-   "abw": 103,
-   "quelle": "gemessen"
-  }
- ],
- "bensersiel": [
-  {
-   "t": 1794529920000,
-   "abw": 100,
-   "quelle": "vorhersage"
-  }
- ],
- "harlesiel": [
-  {
-   "t": 1794530400000,
-   "abw": 100,
-   "quelle": "vorhersage"
-  }
- ],
- "helgoland_binnenhafen": [
-  {
-   "t": 1794529200000,
-   "abw": 95,
-   "quelle": "gemessen"
-  }
- ],
- "knock": [
-  {
-   "t": 1794531000000,
-   "abw": 125,
-   "quelle": "vorhersage"
-  }
- ],
- "langeoog_hafeneinfahrt": [
-  {
-   "t": 1794529980000,
-   "abw": 100,
-   "quelle": "vorhersage"
-  }
- ],
- "leyhoern_leybucht": [
-  {
-   "t": 1794528720000,
-   "abw": 125,
-   "quelle": "vorhersage"
-  }
- ],
- "norderney_riffgat": [
-  {
-   "t": 1794527400000,
-   "abw": 102,
-   "quelle": "gemessen"
-  }
- ],
- "scharhoernriff_bake_a": [
-  {
-   "t": 1794531600000,
-   "abw": 105,
-   "quelle": "gemessen"
-  }
- ],
- "spiekeroog": [
-  {
-   "t": 1794530160000,
-   "abw": 100,
-   "quelle": "vorhersage"
-  }
- ],
- "wangerooge_hafen": [
-  {
-   "t": 1794530400000,
-   "abw": 100,
-   "quelle": "vorhersage"
-  }
- ],
- "wangerooge_ost": [
-  {
-   "t": 1794530760000,
-   "abw": 100,
-   "quelle": "vorhersage"
-  }
- ],
  "belum": [
-  {
-   "t": 1794535200000,
-   "abw": 129,
-   "quelle": "gemessen"
-  },
   {
    "t": 1794582960000,
    "abw": 75,
    "quelle": "vorhersage"
-  }
- ],
- "brake": [
-  {
-   "t": 1794537600000,
-   "abw": 121,
-   "quelle": "gemessen"
   }
  ],
  "bremen_oslebshausen": [
@@ -135,13 +25,6 @@
    "quelle": "gemessen"
   }
  ],
- "bremerhaven_alter_leuchtturm": [
-  {
-   "t": 1794534000000,
-   "abw": 120,
-   "quelle": "gemessen"
-  }
- ],
  "brokdorf": [
   {
    "t": 1794540000000,
@@ -156,65 +39,22 @@
  ],
  "brunsbuettel_ost": [
   {
-   "t": 1794538200000,
-   "abw": 114,
-   "quelle": "gemessen"
-  },
-  {
    "t": 1794583320000,
    "abw": 75,
    "quelle": "vorhersage"
   }
  ],
- "buesum_schleuse": [
-  {
-   "t": 1794534000000,
-   "abw": 118,
-   "quelle": "gemessen"
-  }
- ],
  "cuxhaven_steubenhoeft": [
-  {
-   "t": 1794535200000,
-   "abw": 124,
-   "quelle": "gemessen"
-  },
   {
    "t": 1794579420000,
    "abw": 75,
    "quelle": "vorhersage"
   }
  ],
- "dwarsgat": [
-  {
-   "t": 1794532200000,
-   "abw": 116,
-   "quelle": "gemessen"
-  }
- ],
  "eider-sperrwerk_aussenpegel": [
-  {
-   "t": 1794533400000,
-   "abw": 137,
-   "quelle": "gemessen"
-  },
   {
    "t": 1794579000000,
    "abw": 85,
-   "quelle": "gemessen"
-  }
- ],
- "elsfleth": [
-  {
-   "t": 1794538200000,
-   "abw": 121,
-   "quelle": "gemessen"
-  }
- ],
- "emden_grosse_seeschleuse": [
-  {
-   "t": 1794529200000,
-   "abw": 115,
    "quelle": "gemessen"
   }
  ],
@@ -253,41 +93,6 @@
    "quelle": "gemessen"
   }
  ],
- "hooge_anleger": [
-  {
-   "t": 1794535800000,
-   "abw": 96,
-   "quelle": "gemessen"
-  }
- ],
- "hooksielplate": [
-  {
-   "t": 1794531000000,
-   "abw": 114,
-   "quelle": "gemessen"
-  }
- ],
- "husum_schleuse": [
-  {
-   "t": 1794536400000,
-   "abw": 106,
-   "quelle": "gemessen"
-  }
- ],
- "leerort": [
-  {
-   "t": 1794532800000,
-   "abw": 122,
-   "quelle": "gemessen"
-  }
- ],
- "papenburg": [
-  {
-   "t": 1794535200000,
-   "abw": 113,
-   "quelle": "gemessen"
-  }
- ],
  "schulau": [
   {
    "t": 1794544200000,
@@ -302,101 +107,10 @@
    "quelle": "gemessen"
   }
  ],
- "wilhelmshaven_alter_vorhafen": [
-  {
-   "t": 1794533400000,
-   "abw": 114,
-   "quelle": "gemessen"
-  }
- ],
- "amrum_odde": [
-  {
-   "t": 1794534180000,
-   "abw": 100,
-   "quelle": "vorhersage"
-  }
- ],
- "borkum_fischerbalje": [
-  {
-   "t": 1794525600000,
-   "abw": 102,
-   "quelle": "gemessen"
-  }
- ],
- "meldorf_sperrwerk_aussenpegel": [
-  {
-   "t": 1794534060000,
-   "abw": 125,
-   "quelle": "vorhersage"
-  }
- ],
- "neuwerk_anleger": [
-  {
-   "t": 1794533160000,
-   "abw": 125,
-   "quelle": "vorhersage"
-  }
- ],
- "scharhoern_bake_c": [
-  {
-   "t": 1794531960000,
-   "abw": 125,
-   "quelle": "vorhersage"
-  }
- ],
- "schillig": [
-  {
-   "t": 1794532140000,
-   "abw": 100,
-   "quelle": "vorhersage"
-  }
- ],
- "spieka_neufeld": [
-  {
-   "t": 1794533220000,
-   "abw": 125,
-   "quelle": "vorhersage"
-  }
- ],
- "suederoogsand": [
-  {
-   "t": 1794534300000,
-   "abw": 100,
-   "quelle": "vorhersage"
-  }
- ],
- "westerland": [
-  {
-   "t": 1794533160000,
-   "abw": 87,
-   "quelle": "vorhersage"
-  }
- ],
- "wilhelmshaven_neuer_vorhafen_seeschleuse": [
-  {
-   "t": 1794533580000,
-   "abw": 125,
-   "quelle": "vorhersage"
-  }
- ],
  "hoernum_hafen": [
   {
    "t": 1794538800000,
    "abw": 88,
-   "quelle": "gemessen"
-  }
- ],
- "list_hafen": [
-  {
-   "t": 1794537000000,
-   "abw": 83,
-   "quelle": "gemessen"
-  }
- ],
- "wittduen_hafen": [
-  {
-   "t": 1794534600000,
-   "abw": 87,
    "quelle": "gemessen"
   }
  ],
