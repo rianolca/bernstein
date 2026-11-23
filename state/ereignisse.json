@@ -6,19 +6,7 @@
    "quelle": "vorhersage"
   }
  ],
- "bremen_oslebshausen": [
-  {
-   "t": 1794540600000,
-   "abw": 133,
-   "quelle": "gemessen"
-  }
- ],
  "bremen_wilhelm-kaisen-bruecke": [
-  {
-   "t": 1794541800000,
-   "abw": 132,
-   "quelle": "gemessen"
-  },
   {
    "t": 1794585600000,
    "abw": 76,
@@ -26,11 +14,6 @@
   }
  ],
  "brokdorf": [
-  {
-   "t": 1794540000000,
-   "abw": 123,
-   "quelle": "gemessen"
-  },
   {
    "t": 1794585480000,
    "abw": 75,
@@ -55,62 +38,6 @@
   {
    "t": 1794579000000,
    "abw": 85,
-   "quelle": "gemessen"
-  }
- ],
- "geesthacht_wehr_unterpegel": [
-  {
-   "t": 1794550200000,
-   "abw": 111,
-   "quelle": "gemessen"
-  }
- ],
- "glueckstadt": [
-  {
-   "t": 1794541200000,
-   "abw": 119,
-   "quelle": "gemessen"
-  }
- ],
- "hamburg_dove-elbe_einfahrt": [
-  {
-   "t": 1794547200000,
-   "abw": 113,
-   "quelle": "gemessen"
-  }
- ],
- "hamburg_st-pauli": [
-  {
-   "t": 1794546000000,
-   "abw": 114,
-   "quelle": "gemessen"
-  }
- ],
- "hamburg_zollenspieker": [
-  {
-   "t": 1794549600000,
-   "abw": 113,
-   "quelle": "gemessen"
-  }
- ],
- "schulau": [
-  {
-   "t": 1794544200000,
-   "abw": 114,
-   "quelle": "gemessen"
-  }
- ],
- "stadersand": [
-  {
-   "t": 1794543000000,
-   "abw": 117,
-   "quelle": "gemessen"
-  }
- ],
- "hoernum_hafen": [
-  {
-   "t": 1794538800000,
-   "abw": 88,
    "quelle": "gemessen"
   }
  ],
